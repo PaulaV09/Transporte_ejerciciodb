@@ -1,0 +1,16 @@
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+
+namespace Transporte.src.modules.transport.Infrastructure.entity;
+
+[Table("chat_participants")]
+public sealed class ChatParticipantEntity
+{
+    public Guid Id { get; set; }
+    public Guid? ChatRoomId { get; set; }
+    public ChatRoomEntity? ChatRoom { get; set; }
+    public Guid? PersonId { get; set; }
+    public PersonEntity? Person { get; set; }
+    public DateTime JoinedAt { get; set; }
+}
+

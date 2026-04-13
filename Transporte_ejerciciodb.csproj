@@ -1,0 +1,219 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="src/modules/app_config/" />
+    <Folder Include="src/modules/app_config/Infrastructure/" />
+    <Folder Include="src/modules/app_config/Infrastructure/entity/" />
+    <Folder Include="src/modules/assingment_role/" />
+    <Folder Include="src/modules/assingment_role/Infrastructure/" />
+    <Folder Include="src/modules/assingment_role/Infrastructure/entity/" />
+    <Folder Include="src/modules/audit_log/Infrastructure/" />
+    <Folder Include="src/modules/audit_log/Infrastructure/entity/" />
+    <Folder Include="src/modules/auth_credentials/" />
+    <Folder Include="src/modules/auth_credentials/Infrastructure/" />
+    <Folder Include="src/modules/auth_credentials/Infrastructure/entity/" />
+    <Folder Include="src/modules/audit_log/" />
+    <Folder Include="src/modules/auth_sessions/" />
+    <Folder Include="src/modules/auth_sessions/Infrastructure/" />
+    <Folder Include="src/modules/auth_sessions/Infrastructure/entity/" />
+    <Folder Include="src/modules/blacklist/" />
+    <Folder Include="src/modules/blacklist/Infrastructure/" />
+    <Folder Include="src/modules/blacklist/Infrastructure/entity/" />
+    <Folder Include="src/modules/chat_participants/" />
+    <Folder Include="src/modules/chat_participants/Infrastructure/" />
+    <Folder Include="src/modules/chat_participants/Infrastructure/entity/" />
+    <Folder Include="src/modules/chat_rooms/" />
+    <Folder Include="src/modules/chat_rooms/Infrastructure/" />
+    <Folder Include="src/modules/chat_rooms/Infrastructure/entity/" />
+    <Folder Include="src/modules/cities/" />
+    <Folder Include="src/modules/cities/Infrastructure/" />
+    <Folder Include="src/modules/cities/Infrastructure/entity/" />
+    <Folder Include="src/modules/city_pricing_rules/" />
+    <Folder Include="src/modules/city_pricing_rules/Infrastructure/" />
+    <Folder Include="src/modules/city_pricing_rules/Infrastructure/entity/" />
+    <Folder Include="src/modules/companies_states/" />
+    <Folder Include="src/modules/companies_states/Infrastructure/" />
+    <Folder Include="src/modules/companies_states/Infrastructure/entity/" />
+    <Folder Include="src/modules/company_documents/" />
+    <Folder Include="src/modules/company_documents/Infrastructure/" />
+    <Folder Include="src/modules/company_documents/Infrastructure/entity/" />
+    <Folder Include="src/modules/company_vehicles/" />
+    <Folder Include="src/modules/company_vehicles/Infrastructure/" />
+    <Folder Include="src/modules/company_vehicles/Infrastructure/entity/" />
+    <Folder Include="src/modules/countries/" />
+    <Folder Include="src/modules/countries/Infrastructure/" />
+    <Folder Include="src/modules/countries/Infrastructure/entity/" />
+    <Folder Include="src/modules/credit_wallet/" />
+    <Folder Include="src/modules/credit_wallet/Infrastructure/" />
+    <Folder Include="src/modules/credit_wallet/Infrastructure/entity/" />
+    <Folder Include="src/modules/customers/" />
+    <Folder Include="src/modules/customers/Infrastructure/" />
+    <Folder Include="src/modules/customers/Infrastructure/entity/" />
+    <Folder Include="src/modules/discards/" />
+    <Folder Include="src/modules/discards/Infrastructure/" />
+    <Folder Include="src/modules/discards/Infrastructure/entity/" />
+    <Folder Include="src/modules/discards_status/" />
+    <Folder Include="src/modules/discards_status/Infrastructure/" />
+    <Folder Include="src/modules/discards_status/Infrastructure/entity/" />
+    <Folder Include="src/modules/documents_custumers/" />
+    <Folder Include="src/modules/documents_custumers/Infrastructure/" />
+    <Folder Include="src/modules/documents_custumers/Infrastructure/entity/" />
+    <Folder Include="src/modules/documents_drivers/" />
+    <Folder Include="src/modules/documents_drivers/Infrastructure/" />
+    <Folder Include="src/modules/documents_drivers/Infrastructure/entity/" />
+    <Folder Include="src/modules/documents_vehicles/" />
+    <Folder Include="src/modules/documents_vehicles/Infrastructure/" />
+    <Folder Include="src/modules/documents_vehicles/Infrastructure/entity/" />
+    <Folder Include="src/modules/document_status/" />
+    <Folder Include="src/modules/document_status/Infrastructure/" />
+    <Folder Include="src/modules/document_status/Infrastructure/entity/" />
+    <Folder Include="src/modules/drivers/" />
+    <Folder Include="src/modules/drivers/Infrastructure/" />
+    <Folder Include="src/modules/drivers/Infrastructure/entity/" />
+    <Folder Include="src/modules/drivers_vehicles/" />
+    <Folder Include="src/modules/drivers_vehicles/Infrastructure/" />
+    <Folder Include="src/modules/drivers_vehicles/Infrastructure/entity/" />
+    <Folder Include="src/modules/leads/" />
+    <Folder Include="src/modules/leads/Infrastructure/" />
+    <Folder Include="src/modules/leads/Infrastructure/entity/" />
+    <Folder Include="src/modules/legal_terms/" />
+    <Folder Include="src/modules/legal_terms/Infrastructure/" />
+    <Folder Include="src/modules/legal_terms/Infrastructure/entity/" />
+    <Folder Include="src/modules/loads_images/" />
+    <Folder Include="src/modules/loads_images/Infrastructure/" />
+    <Folder Include="src/modules/loads_images/Infrastructure/entity/" />
+    <Folder Include="src/modules/loads_points/" />
+    <Folder Include="src/modules/loads_points/Infrastructure/" />
+    <Folder Include="src/modules/loads_points/Infrastructure/entity/" />
+    <Folder Include="src/modules/loads_status_history/" />
+    <Folder Include="src/modules/loads_status_history/Infrastructure/" />
+    <Folder Include="src/modules/loads_status_history/Infrastructure/entity/" />
+    <Folder Include="src/modules/message_type/" />
+    <Folder Include="src/modules/message_type/Infrastructure/" />
+    <Folder Include="src/modules/message_type/Infrastructure/entity/" />
+    <Folder Include="src/modules/notifications/" />
+    <Folder Include="src/modules/notifications/Infrastructure/" />
+    <Folder Include="src/modules/notifications/Infrastructure/entity/" />
+    <Folder Include="src/modules/notification_states/" />
+    <Folder Include="src/modules/notification_states/Infrastructure/" />
+    <Folder Include="src/modules/notification_states/Infrastructure/entity/" />
+    <Folder Include="src/modules/notification_types/" />
+    <Folder Include="src/modules/notification_types/Infrastructure/" />
+    <Folder Include="src/modules/notification_types/Infrastructure/entity/" />
+    <Folder Include="src/modules/payments/" />
+    <Folder Include="src/modules/payments/Infrastructure/" />
+    <Folder Include="src/modules/payments/Infrastructure/entity/" />
+    <Folder Include="src/modules/payment_providers/" />
+    <Folder Include="src/modules/payment_providers/Infrastructure/" />
+    <Folder Include="src/modules/payment_providers/Infrastructure/entity/" />
+    <Folder Include="src/modules/persons/" />
+    <Folder Include="src/modules/persons/Infrastructure/" />
+    <Folder Include="src/modules/persons/Infrastructure/entity/" />
+    <Folder Include="src/modules/person_roles/" />
+    <Folder Include="src/modules/person_roles/Infrastructure/" />
+    <Folder Include="src/modules/person_roles/Infrastructure/entity/" />
+    <Folder Include="src/modules/person_states/" />
+    <Folder Include="src/modules/person_states/Infrastructure/" />
+    <Folder Include="src/modules/person_states/Infrastructure/entity/" />
+    <Folder Include="src/modules/prices/" />
+    <Folder Include="src/modules/prices/Infrastructure/" />
+    <Folder Include="src/modules/prices/Infrastructure/entity/" />
+    <Folder Include="src/modules/price_history/" />
+    <Folder Include="src/modules/price_history/Infrastructure/" />
+    <Folder Include="src/modules/price_history/Infrastructure/entity/" />
+    <Folder Include="src/modules/reasons_discards/" />
+    <Folder Include="src/modules/reasons_discards/Infrastructure/" />
+    <Folder Include="src/modules/reasons_discards/Infrastructure/entity/" />
+    <Folder Include="src/modules/return_load_suggestions/" />
+    <Folder Include="src/modules/return_load_suggestions/Infrastructure/" />
+    <Folder Include="src/modules/return_load_suggestions/Infrastructure/entity/" />
+    <Folder Include="src/modules/subscriptions/" />
+    <Folder Include="src/modules/subscriptions/Infrastructure/" />
+    <Folder Include="src/modules/subscriptions/Infrastructure/entity/" />
+    <Folder Include="src/modules/subscription_states/" />
+    <Folder Include="src/modules/subscription_states/Infrastructure/" />
+    <Folder Include="src/modules/subscription_states/Infrastructure/entity/" />
+    <Folder Include="src/modules/subscription_type/" />
+    <Folder Include="src/modules/subscription_type/Infrastructure/" />
+    <Folder Include="src/modules/subscription_type/Infrastructure/entity/" />
+    <Folder Include="src/modules/support_tickets/" />
+    <Folder Include="src/modules/support_tickets/Infrastructure/" />
+    <Folder Include="src/modules/support_tickets/Infrastructure/entity/" />
+    <Folder Include="src/modules/system_errors/" />
+    <Folder Include="src/modules/system_errors/Infrastructure/" />
+    <Folder Include="src/modules/system_errors/Infrastructure/entity/" />
+    <Folder Include="src/modules/transaction_types/" />
+    <Folder Include="src/modules/transaction_types/Infrastructure/" />
+    <Folder Include="src/modules/transaction_types/Infrastructure/entity/" />
+    <Folder Include="src/modules/transport_companies/" />
+    <Folder Include="src/modules/transport_companies/Infrastructure/" />
+    <Folder Include="src/modules/transport_companies/Infrastructure/entity/" />
+    <Folder Include="src/modules/travel_areas/" />
+    <Folder Include="src/modules/travel_areas/Infrastructure/" />
+    <Folder Include="src/modules/travel_areas/Infrastructure/entity/" />
+    <Folder Include="src/modules/trips/" />
+    <Folder Include="src/modules/trips/Infrastructure/" />
+    <Folder Include="src/modules/trips/Infrastructure/entity/" />
+    <Folder Include="src/modules/trip_assingments/" />
+    <Folder Include="src/modules/trip_assingments/Infrastructure/" />
+    <Folder Include="src/modules/trip_assingments/Infrastructure/entity/" />
+    <Folder Include="src/modules/trip_states_history/" />
+    <Folder Include="src/modules/trip_states_history/Infrastructure/" />
+    <Folder Include="src/modules/trip_states_history/Infrastructure/entity/" />
+    <Folder Include="src/modules/type_document/" />
+    <Folder Include="src/modules/type_document/Infrastructure/" />
+    <Folder Include="src/modules/type_document/Infrastructure/entity/" />
+    <Folder Include="src/modules/type_load/" />
+    <Folder Include="src/modules/type_load/Infrastructure/" />
+    <Folder Include="src/modules/type_load/Infrastructure/entity/" />
+    <Folder Include="src/modules/type_vehicles/" />
+    <Folder Include="src/modules/user_preferences/" />
+    <Folder Include="src/modules/user_preferences/Infrastructure/" />
+    <Folder Include="src/modules/user_preferences/Infrastructure/entity/" />
+    <Folder Include="src/modules/user_terms_acceptance/" />
+    <Folder Include="src/modules/user_terms_acceptance/Infrastructure/" />
+    <Folder Include="src/modules/user_terms_acceptance/Infrastructure/entity/" />
+    <Folder Include="src/modules/vehicles/" />
+    <Folder Include="src/modules/vehicles/Infrastructure/" />
+    <Folder Include="src/modules/vehicles/Infrastructure/entity/" />
+    <Folder Include="src/modules/vehicles_states/" />
+    <Folder Include="src/modules/vehicles_states/Infrastructure/" />
+    <Folder Include="src/modules/vehicles_states/Infrastructure/entity/" />
+    <Folder Include="src/modules/wallet_transactions/" />
+    <Folder Include="src/modules/wallet_transactions/Infrastructure/" />
+    <Folder Include="src/modules/wallet_transactions/Infrastructure/entity/" />
+    <Folder Include="src/shared/" />
+    <Folder Include="src/shared/context/" />
+    <Folder Include="src/shared/contracts/" />
+    <Folder Include="src/shared/helpers/" />
+    <Folder Include="src/shared/UI/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="10.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="10.0.5" />
+    <PackageReference Include="NetTopologySuite" Version="2.6.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.NetTopologySuite" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
