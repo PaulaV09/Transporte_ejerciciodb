@@ -122,3 +122,4 @@
 /Users/paulaandreaviviescasjaimes/Documents/Paula /Campus/Software/C#/Transporte_ejerciciodb/obj/Debug/net10.0/Transporte_ejerciciodb.pdb
 /Users/paulaandreaviviescasjaimes/Documents/Paula /Campus/Software/C#/Transporte_ejerciciodb/obj/Debug/net10.0/Transporte_ejerciciodb.genruntimeconfig.cache
 /Users/paulaandreaviviescasjaimes/Documents/Paula /Campus/Software/C#/Transporte_ejerciciodb/obj/Debug/net10.0/ref/Transporte_ejerciciodb.dll
+/Users/paulaandreaviviescasjaimes/Documents/Paula /Campus/Software/C#/Transporte_ejerciciodb/obj/Debug/net10.0/Transporte_ejerciciodb.sourcelink.json
